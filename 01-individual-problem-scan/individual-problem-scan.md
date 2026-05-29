@@ -101,12 +101,25 @@ AI có thể hỗ trợ gom các deadline, task đồ án, task lab và thời g
 ### Current state
 
 ```text
-CURRENT STATE — dễ quá tải
+## Current State — dễ quá tải
 
-![Workflow current state - dễ quá tải](./current_state_de_qua_tai.png)
++------------------------+     +------------------------+     +------------------------+     +------------------------+
+| 1. Kiểm tra            | --> | 2. Di chuyển           | --> | 3. Tham gia            | --> | 4. Di chuyển           |
+|    lịch học            |     |    2 giờ               |     |    AI thực chiến       |     |    2 giờ               |
++------------------------+     +------------------------+     +------------------------+     +------------------------+
+                                                                                                      |
+                                                                                                      v
++------------------------+     +------------------------+     +------------------------+     +------------------------+
+| 5. Mở lại              | --> | 6. Tự nhớ việc         | 🔴-> | 7. Làm phần            | --> | 8. Cuối ngày mới      |
+|    việc đồ án          |     |    cần làm             |     |    đang gấp nhất       |     |    kiểm tra            |
++------------------------+     +------------------------+     +------------------------+     |    lab/deadline        |
+                                                                                              +------------------------+
 
-Bottleneck:
-Thời gian bị chia nhỏ, phải tự nhớ nhiều đầu việc và dễ ưu tiên theo cảm giác thay vì theo deadline/impact.
+🔴 = Bottleneck
+```
+
+**Bottleneck:** Thời gian bị chia nhỏ, phải tự nhớ nhiều đầu việc và dễ ưu tiên theo cảm giác thay vì theo deadline/impact.
+
 ```
 
 ### Future state
