@@ -127,16 +127,21 @@ AI có thể hỗ trợ gom các deadline, task đồ án, task lab và thời g
 ```text
 FUTURE STATE — có kế hoạch rõ hơn
 
-[Nhập deadline đồ án + deadline lab + lịch học + thời gian di chuyển]
-→ [AI gom task và chia theo ngày]
-→ [AI đề xuất 3–5 việc ưu tiên]
-→ [Sinh viên chọn lại theo tình hình thật]
-→ [Thực hiện theo time-block]
-→ [Cuối ngày cập nhật trạng thái]
-→ [AI gợi ý điều chỉnh kế hoạch ngày sau]
++----------------------------+     +----------------------------+     +----------------------------+     +----------------------------+
+| 1. Nhập deadline           | --> | 2. AI gom task             | --> | 3. AI đề xuất              | --> | 4. Sinh viên chọn lại      |
+|    đồ án + lab +           |     |    và chia theo ngày       |     |    3-5 việc ưu tiên        |     |    theo tình hình thật     |
+|    lịch học + di chuyển    |     +----------------------------+     +----------------------------+     +----------------------------+
++----------------------------+                                                                                 |
+                                                                                                                 v
++----------------------------+     +----------------------------+     +----------------------------+
+| 5. Thực hiện theo          | --> | 6. Cuối ngày cập nhật      | --> | 7. AI gợi ý điều chỉnh     |
+|    time-block              |     |    trạng thái              |     |    kế hoạch ngày sau       |
++----------------------------+     +----------------------------+     +----------------------------+
 
-Human boundary:
-AI không quyết định thay hoàn toàn lịch cá nhân. Sinh viên vẫn tự chọn việc ưu tiên cuối cùng dựa trên sức khỏe, deadline thật và yêu cầu của giảng viên/mentor.
+🔵 = Human boundary
+```
+
+**Human boundary:** AI không quyết định thay hoàn toàn lịch cá nhân. Sinh viên vẫn tự chọn việc ưu tiên cuối cùng dựa trên sức khỏe, deadline thật và yêu cầu của giảng viên/mentor.
 ```
 
 ---
