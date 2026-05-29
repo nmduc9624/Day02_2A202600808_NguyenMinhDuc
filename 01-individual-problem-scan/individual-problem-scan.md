@@ -103,14 +103,7 @@ AI có thể hỗ trợ gom các deadline, task đồ án, task lab và thời g
 ```text
 CURRENT STATE — dễ quá tải
 
-[Kiểm tra lịch học]
-→ [Di chuyển 2 giờ]
-→ [Tham gia AI thực chiến]
-→ [Di chuyển 2 giờ]
-→ [Mở lại việc đồ án]
-→ [Tự nhớ việc cần làm]
-→ [Làm phần đang gấp nhất]
-→ [Cuối ngày mới kiểm tra lab/deadline]
+![Workflow current state - dễ quá tải](./current_state_de_qua_tai.png)
 
 Bottleneck:
 Thời gian bị chia nhỏ, phải tự nhớ nhiều đầu việc và dễ ưu tiên theo cảm giác thay vì theo deadline/impact.
